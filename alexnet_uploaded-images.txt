@@ -1,0 +1,67 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = alexnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 6 key-value pairs.
+Below are 6 of them:
+ 1 key:                Labrador_02.jpg  label:                   labrador
+ 2 key:                Labrador_01.jpg  label:                   labrador
+ 3 key:              Black_Bear_01.jpg  label:                 black bear
+ 4 key:                  Bucket_01.jpg  label:                     bucket
+ 5 key:              Coffee_Mug_01.jpg  label:                 coffee mug
+ 6 key:                    Frog_01.jpg  label:                       frog
+
+     MATCH:
+
+               Labrador_02.jpg: 
+Real:                   labrador   Classifier:             labrador retriever
+
+               Labrador_01.jpg: 
+Real:                   labrador   Classifier:             labrador retriever
+
+             Black_Bear_01.jpg: 
+Real:                 black bear   Classifier: american black bear, black bear, ursus americanus, euarctos americanus
+
+                 Bucket_01.jpg: 
+Real:                     bucket   Classifier:                   bucket, pail
+
+                   Frog_01.jpg: 
+Real:                       frog   Classifier:           tree frog, tree-frog
+
+ NOT A MATCH:
+
+             Coffee_Mug_01.jpg: 
+Real:                 coffee mug   Classifier:                      coffeepot
+
+# Total Images 6 # Matches: 5 # NOT Matches: 1
+
+     MATCH:
+
+               Labrador_02.jpg: 
+Real:                   labrador   Classifier:             labrador retriever  
+PetLabelDog: 0  ClassLabelDog: 1
+
+               Labrador_01.jpg: 
+Real:                   labrador   Classifier:             labrador retriever  
+PetLabelDog: 0  ClassLabelDog: 1
+
+             Black_Bear_01.jpg: 
+Real:                 black bear   Classifier: american black bear, black bear, ursus americanus, euarctos americanus  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                 Bucket_01.jpg: 
+Real:                     bucket   Classifier:                   bucket, pail  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                   Frog_01.jpg: 
+Real:                       frog   Classifier:           tree frog, tree-frog  
+PetLabelDog: 0  ClassLabelDog: 0
+
+ NOT A MATCH:
+
+             Coffee_Mug_01.jpg: 
+Real:                 coffee mug   Classifier:                      coffeepot  
+PetLabelDog: 0  ClassLabelDog: 0
+
+# Total Images 6 # Matches: 5 # NOT Matches: 1

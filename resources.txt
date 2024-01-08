@@ -1,0 +1,7 @@
+To check the usage of basic functions
+	https://www.w3schools.com/python/
+    https://builtin.com/data-science/python-list-files-in-directory
+    
+To find solutions for the errors
+	https://stackoverflow.com/
+	https://stackoverflow.com/questions/67475333/typeerror-write-argument-must-be-str-not-dict-python
